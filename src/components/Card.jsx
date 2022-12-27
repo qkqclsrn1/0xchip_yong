@@ -6,7 +6,7 @@ import {
   Button,
   Stack,
   Heading,
-  Text
+  Text,
 } from "@chakra-ui/react";
 
 import AxieInfinityImage from "./Axie-Infinity.jpg";
@@ -14,6 +14,7 @@ import AxieInfinityImage from "./Axie-Infinity.jpg";
 export default function NftCard() {
   return (
     <Card
+      my={20}
       direction={{ base: "column", sm: "row" }}
       overflow="hidden"
       variant="outline"
@@ -48,4 +49,3 @@ export default function NftCard() {
     </Card>
   );
 }
-

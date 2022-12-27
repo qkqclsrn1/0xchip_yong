@@ -1,70 +1,39 @@
-import {
-  Tabs,
-  TabList,
-  TabPanels,
-  Tab,
-  TabPanel,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  Flex,
-} from "@chakra-ui/react";
+import { Flex, Tabs, TabList, Tab } from "@chakra-ui/react";
 
-export default function tabs() {
+export default function forumTabs() {
   return (
-    <Tabs variant="soft-rounded, enclosed" colorScheme="green" isFitted>
-      <TabList mb="1em">
-        <Tab
-          h="50px"
-          fontSize="22px"
-          _selected={{ color: "black", bg: "#F7FF58" }}
-        >
-          Introduction
-        </Tab>
-        <Tab
-          h="50px"
-          fontSize="22px"
-          _selected={{ color: "black", bg: "#F7FF58" }}
-        >
-          NFT
-        </Tab>
-        <Tab
-          h="50px"
-          fontSize="22px"
-          _selected={{ color: "black", bg: "#F7FF58" }}
-        >
-          Forum
-        </Tab>
-      </TabList>
-
-      <TabPanels>
-        <TabPanel>
-          <p>Introduction</p>
-        </TabPanel>
-        <TabPanel>
-          <p>NFT</p>
-        </TabPanel>
-        <TabPanel>
-          <Forum />
-        </TabPanel>
-      </TabPanels>
-    </Tabs>
+    <Flex mt={50} align="center" width="100%" height="100%">
+      <Tabs
+        w="100&"
+        h={100}
+        diretion="coloum"
+        variant="soft-rounded"
+        colorScheme="green"
+      >
+        <TabList mb="3em">
+          <Tab
+            h="60px"
+            fontSize="30px"
+            _selected={{ color: "black", bg: "#F7FF58" }}
+          >
+            Introduction
+          </Tab>
+          <Tab
+            h="60px"
+            fontSize="30px"
+            _selected={{ color: "black", bg: "#F7FF58" }}
+          >
+            NFT
+          </Tab>
+          <Tab
+            h="60px"
+            fontSize="30px"
+            _selected={{ color: "black", bg: "#F7FF58" }}
+          >
+            Forum
+          </Tab>
+        </TabList>
+      </Tabs>
+    </Flex>
   );
 }
-
-const Forum = () => {
-  <Flex w="100%" h="32px" align="center" justify="center">
-    <Menu>
-      <MenuButton as={"Button"} colorScheme="#F7FF58">
-        Forum
-      </MenuButton>
-      <MenuList>
-        <MenuItem>Free Forum</MenuItem>
-        <MenuItem>Tip&Knowhow</MenuItem>
-        <MenuItem>Review</MenuItem>
-        <MenuItem>Searching Party</MenuItem>
-      </MenuList>
-    </Menu>
-  </Flex>;
-};
