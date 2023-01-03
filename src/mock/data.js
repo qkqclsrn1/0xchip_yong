@@ -1,4 +1,3 @@
-import Axie from "../asset/Axie-Infinity.jpg";
 import decentraland from "../asset/decentraland.jpg";
 import sandbox from "../asset/sandbox.jpeg";
 
@@ -9,7 +8,7 @@ const displayItems = [
     tagline: "#the largest game in the world",
     contents:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et",
-    image: Axie,
+    image: decentraland,
   },
 
   {

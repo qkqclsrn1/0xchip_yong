@@ -7,115 +7,76 @@ import {
   Image,
   Box,
 } from "@chakra-ui/react";
-import AxieuniverseImg from "../asset/Axie_Infinity_Universe.png";
-import AxieCommnityImg from "../asset/Axie_Infinity_Community.png";
-import AxieMissionImg from "../asset/Axie_Infinity_Mission.png";
+import OtherdeedForOthersideAbout1 from "../asset/OtherdeedForOtherside/Otherdeed_for_Otherside_about_1.png";
+import OtherdeedForOthersideAbout2 from "../asset/OtherdeedForOtherside/Otherdeed_for_Otherside_about_2.png";
+import OtherdeedForOthersideAbout3 from "../asset/OtherdeedForOtherside/Otherdeed_for_Otherside_about_3.png";
 
 function Introduction() {
   return (
-    <Box mr={0} w="70%">
-      <Flex
-        justify={"center"}
-        py={12}
-        px={{ base: "20px", sm: "30px", lg: "50px" }}
-        h={"100vh"}
-        my={300}
-        align={"center"}
-      >
-        <SimpleGrid columns={2} spacing={10}>
-          <Stack spacing={4}>
-            <Heading>Axie Infinity Universe </Heading>
-            <Text>
-              Axie Infinity is a universe filled with fierce, collectible
-              creatures called Axies. Axie features a player-owned economy where
-              players have complete ownership of their digital assets and can
-              buy, sell, and trade them just like physical trading cards and
-              collectibles. The Axie universe is always expanding through new
-              games and experiences. Many of these experiences will allow
-              players to compete with each other using complex strategies and
-              tactics to attain top rankings or be rewarded with coveted
-              resources. Others will have them complete quests, defeat bosses,
-              and unlock in-depth storylines. The number of Axie combination is
-              almost infinite. Each Axie has a variety of parts based on a
-              unique genetic code. These genes correspond to body parts which
-              can be interpreted in different ways by different experiences. For
-              example, the first generation of Axie games have all featured
-              systems where Axies can play cards or use moves in battle
-              determined by their body parts.
-            </Text>
-          </Stack>
-          <Image
-            rounded={"md"}
-            alt={"feature image"}
-            src={AxieuniverseImg}
-            objectFit={"cover"}
-          />
-          <Image
-            rounded={"md"}
-            alt={"feature image"}
-            src={AxieCommnityImg}
-            objectFit={"cover"}
-          />
-          <Stack spacing={4}>
-            <Heading> Community & Economy </Heading>
-            <Text>
-              All art assets and Axie genetic data can be easily accessed by 3rd
-              parties, allowing community developers to build their own tools
-              and experiences in the Axie Infinity universe. While still in
-              early access, Axie is ranked the #1 Ethereum game by daily,
-              weekly, and monthly active users. Players have spent over 1M ETH
-              (4B+ USD) so far in the Axie universe. While Axie is a fun game,
-              it's also taken on characteristics of a social network and earning
-              platform due to the strong community and opportunity to truly own
-              resources earned within the games. A key difference between Axie
-              and a traditional game is that Blockchain economic design unlocks
-              the ability to have complex player-owned economies and reward
-              players who are able to reach advanced levels of skill. Players
-              are able to have fun and work towards ambitious goals while
-              simultaneously earning potential resources that will have real
-              monetary value due to an open economic system and demand from
-              other players - “Play-and-Earn”. Currently, players can gain more
-              resources to advance in the game by: Competing in Battles to win
-              leaderboard prizes as well as Smooth Love Potions (SLP) Breeding
-              Axies to produce new ones with particular Body Part combinations
-              Collecting and speculating on rare Axies such as Mystics and
-              Origins Creating art and content On-boarding newcomers to the Axie
-              universe
-            </Text>
-          </Stack>
-          <Stack spacing={4}>
-            <Heading> Mission </Heading>
-            <Text>
-              We're here to create an ecosystem of amazing Axie gaming
-              experiences with community and player-owned economies as
-              foundational pillars. By doing this we will deliver property
-              rights to all users of the internet, starting with gamers. Axie is
-              a digital nation where people globally come together to play,
-              work, and make lifelong connections. When we started this journey
-              4 years we weren't sure where we'd end up but we believed that if
-              we asked the right questions we could build something with you
-              that had never been seen before. We asked: What if we built a game
-              that could onboard the world to Web3? What if we could make crypto
-              nostalgic,educational, and immersive? What if a game could be
-              built by developers and players working together through aligned
-              incentives? Welcome to the Axie revolution. Disclaimer: Please
-              note that anything written in this white paper should not be taken
-              as financial advice. Axie is a bleeding-edge game that's
-              incorporating unfinished, risky, and highly experimental
-              technology. Development priorities, roadmaps, and features are
-              subject to radical overhaul based on research, traction, feedback
-              from the community, and a myriad of other factors.
-            </Text>
-          </Stack>
-          <Image
-            rounded={"md"}
-            alt={"feature image"}
-            src={AxieMissionImg}
-            objectFit={"cover"}
-          />
-        </SimpleGrid>
-      </Flex>
-    </Box>
+    <Flex h={"100vh"} mx={300} mt={30} justify={"center"}>
+      <SimpleGrid columns={2} spacing={10}>
+        <Stack spacing={4}>
+          <Heading fontSize={50}> A STRANGE NEW WORLD </Heading>
+          <Text fontSize={20}>
+            We set out to build the Otherside with one thing in mind: the
+            metaverse should be anything but boring. The world should be
+            dynamic, steeped in narrative, and your actions should hold
+            consequence. Step into the Otherside, where the normal rules do not
+            apply. Where you end up is up to chance. Where you go is up to you.
+            \n The Otherside is part galaxy and part archipelago, with islands
+            extending from the Biogenic Swamp at the center and roiling outwards
+            to the Infinite Expanse. There are five sediments that lands are
+            built upon: Biogenic Swamp, Chemical Goo, Rainbow Atmos, Cosmic
+            Dream, and Infinite Expanse. Your Otherdeed is the key to a unique
+            blend of environment, sediment, and treasures — some with resources,
+            some home to powerful artifacts. And on a very few, a Koda roams.
+          </Text>
+        </Stack>
+        <Image
+          rounded={"md"}
+          alt={"feature image"}
+          src={OtherdeedForOthersideAbout1}
+          objectFit={"cover"}
+        />
+        <Image
+          rounded={"md"}
+          alt={"feature image"}
+          src={OtherdeedForOthersideAbout2}
+          objectFit={"cover"}
+        />
+        <Stack spacing={4}>
+          <Heading fontSize={50}> VISITORS FROM AFAR </Heading>
+          <Text fontSize={20}>
+            Meet the Kodas, the primal beings that have ushered us into the
+            Otherside. We don’t know why they’ve brought us here, or what their
+            affinity to this land is. If you are lucky enough to meet a Koda,
+            tread cautiously. Koda 1 Koda 2 Every piece of land in the Otherside
+            nurtures up to four replenishing resources that you will be able to
+            harvest and utilize. Anima, Ore, Shard, and Root. Some are rare,
+            some less so. These are the raw materials you will use to shape this
+            world.
+          </Text>
+        </Stack>
+        <Stack spacing={4}>
+          <Heading fontSize={50}> TREASURES AND TOOLS </Heading>
+          <Text fontSize={20}>
+            Scattered throughout the lands of Otherside are rare objects, some
+            of which cannot be crafted by any other means. If you find an
+            artifact, know that it may hold secrets to this world as it expands.
+            Every Otherdeed is a dynamic NFT, built as a collection of all of
+            its elements, from resources to Kodas. Rather than a static
+            representation of a piece of land, your Otherdeed is designed to
+            evolve along with what you choose to do in the game.
+          </Text>
+        </Stack>
+        <Image
+          rounded={"md"}
+          alt={"feature image"}
+          src={OtherdeedForOthersideAbout3}
+          objectFit={"cover"}
+        />
+      </SimpleGrid>
+    </Flex>
   );
 }
 

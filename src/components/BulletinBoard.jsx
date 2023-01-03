@@ -6,21 +6,27 @@ import {
   StackDivider,
   Box,
   IconButton,
+  Input,
+  Flex,
 } from "@chakra-ui/react";
+import { FaSearch } from "react-icons/fa";
 import { SearchIcon, EditIcon } from "@chakra-ui/icons";
+import React, { useState } from "react";
 
-function bulletinBoard() {
+function BulletinBoard() {
   return (
-    <Box mr={0} mb={100} w="70%">
+    <Flex direction="column" mb={100}>
       <Stack
-        w="50%"
+        w={800}
+        py={5}
         mb={50}
         border="1px"
         borderColor="white"
+        rounded="md"
         divider={<StackDivider />}
         spacing="5"
       >
-        <Box>
+        <Box pl={10}>
           <Heading size="xs" textTransform="uppercase">
             Staking and Staking Rewards
           </Heading>
@@ -29,92 +35,229 @@ function bulletinBoard() {
             long term mindset and
           </Text>
         </Box>
-        <Box>
-          <Heading size="xs" textTransform="uppercase">
-            Overview
-          </Heading>
-          <Text pt="2" fontSize="sm">
-            Check out the overview of your clients.
-          </Text>
-        </Box>
-        <Box>
-          <Heading size="xs" textTransform="uppercase">
-            Analysis
-          </Heading>
-          <Text pt="2" fontSize="sm">
-            See a detailed analysis of all your business clients.
-          </Text>
-        </Box>
-        <Box>
+        <Box pl={10}>
           <Heading size="xs" textTransform="uppercase">
             Staking and Staking Rewards
           </Heading>
-          <Text pt="2" fontSize="sm">
+          <Text pt="2" fontColor="black" fontSize="sm">
             Staking is a way for us to reward our community members for having a
             long term mindset and
           </Text>
         </Box>
-        <Box>
+        <Box pl={10}>
           <Heading size="xs" textTransform="uppercase">
             Staking and Staking Rewards
           </Heading>
-          <Text pt="2" fontSize="sm">
+          <Text pt="2" fontColor="black" fontSize="sm">
             Staking is a way for us to reward our community members for having a
             long term mindset and
           </Text>
         </Box>
-        <Box>
+        <Box pl={10}>
           <Heading size="xs" textTransform="uppercase">
             Staking and Staking Rewards
           </Heading>
-          <Text pt="2" fontSize="sm">
+          <Text pt="2" fontColor="black" fontSize="sm">
             Staking is a way for us to reward our community members for having a
             long term mindset and
           </Text>
         </Box>
-        <Box>
+        <Box pl={10}>
           <Heading size="xs" textTransform="uppercase">
             Staking and Staking Rewards
           </Heading>
-          <Text pt="2" fontSize="sm">
+          <Text pt="2" fontColor="black" fontSize="sm">
             Staking is a way for us to reward our community members for having a
             long term mindset and
           </Text>
         </Box>
-        <Box>
+        <Box pl={10}>
           <Heading size="xs" textTransform="uppercase">
             Staking and Staking Rewards
           </Heading>
-          <Text pt="2" fontSize="sm">
+          <Text pt="2" fontColor="black" fontSize="sm">
             Staking is a way for us to reward our community members for having a
             long term mindset and
           </Text>
         </Box>
-        <Box>
+        <Box pl={10}>
           <Heading size="xs" textTransform="uppercase">
             Staking and Staking Rewards
           </Heading>
-          <Text pt="2" fontSize="sm">
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
+            Staking is a way for us to reward our community members for having a
+            long term mindset and
+          </Text>
+        </Box>
+        <Box pl={10}>
+          <Heading size="xs" textTransform="uppercase">
+            Staking and Staking Rewards
+          </Heading>
+          <Text pt="2" fontColor="black" fontSize="sm">
             Staking is a way for us to reward our community members for having a
             long term mindset and
           </Text>
         </Box>
       </Stack>
-      <Textarea w="50%" h={15} fontSize={20} placeholder="Searching.." />
-      <IconButton
-        colorScheme="blue"
-        aria-label="Search database"
-        size="lg"
-        icon={<SearchIcon />}
-      />
-      <IconButton
-        colorScheme="teal"
-        aria-label="Call Segun"
-        size="lg"
-        icon={<EditIcon />}
-      />
-    </Box>
+      <Flex pt={5}>
+        <Input
+          display={"flex"}
+          justify={"center"}
+          align={"center"}
+          w={"800px"}
+          h={"60px"}
+          placeholder="Searching.."
+          size={"lg"}
+          variant={"filled"}
+          focusBorderColor={"#E9AFA3"}
+        />
+        <IconButton
+          type={"button"}
+          colorScheme="black"
+          aria-label="Search database"
+          icon={<FaSearch />}
+          size="lg"
+          h={"60px"}
+          onClick={() => {}}
+        />
+        <IconButton
+          type={"button"}
+          colorScheme="black"
+          aria-label="Edit database"
+          icon={<EditIcon />}
+          size="lg"
+          h={"60px"}
+          onClick={() => {}}
+        />
+      </Flex>
+    </Flex>
   );
 }
 
-export default bulletinBoard;
+export default BulletinBoard;

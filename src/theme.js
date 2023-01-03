@@ -2,13 +2,13 @@ import { extendTheme } from "@chakra-ui/react";
 // import "@fontsource/aldrich";
 import "@fontsource/barlow";
 
-
 const theme = extendTheme({
   styles: {
     global: {
       body: {
         backgroundColor: "#080705",
         color: "white",
+        whitespace: "pre-line",
       },
     },
   },
